@@ -10,8 +10,21 @@ and using <a href="https://pub.dev/packages/get">Getx</a> framework for state ma
 
 <br>
 
+##  Contents
+- [Getting Started](#started). 
+- [Folder Structure](#folder).
+- [Add Dependencies](#dependencies).
+- [Initialize Get Storage](#initialize).
+- [Controller Class](#controller).
+- [Display Cached Data in screen](#screen).
+- [Technologies](#technologies).
 
-## 🚀  Getting Started 
+
+
+
+
+
+## 🚀  Getting Started <a id="started"></a>
 
 Before installing , make sure you have the following prerequisites installed:
 
@@ -26,7 +39,7 @@ Once you have the prerequisites installed, follow these steps to install:
 
 
 
-## 🔎 Folder Structure
+## 🔎 Folder Structure <a id="folder"></a>
 
 This Project follows the Model-View-Controller (MVC) design pattern. The primary directory structure consists of three main folders: Common, Core, and Features.
 
@@ -75,7 +88,7 @@ getStorage
 <br>
 
 
-## Step 1: Add Dependencies 
+## Step 1: Add Dependencies <a id="dependencies"></a>
 
 Open the ```pubspec.yaml``` file located in the root of your project, and add the following line under the dependencies section.
 
@@ -87,7 +100,7 @@ Open the ```pubspec.yaml``` file located in the root of your project, and add th
 <br>
 
 
-## Step 2: Initialize Get Storage
+## Step 2: Initialize Get Storage  <a id="initialize"></a>
 
 To initialize get storage, we need to call ```GetStorage().init``` in the main function.
 
@@ -101,7 +114,7 @@ To initialize get storage, we need to call ```GetStorage().init``` in the main f
 
 <br>
 
-## Step 3: Controller Class
+## Step 3: Controller Class <a id="controller"></a>
 
 Before we continue, I assume you have created a model class, a service class, and a screen class and are fetching data from the API. Now, let’s create a controller class to handle the business logic of the app. I have created three functions to handle caching and synchronizing data as follows:
 <br>
@@ -175,7 +188,7 @@ This function is designed to retrieve data either from a remote server or locall
   }
 ```
 
-## Step 4: Display Cached Data in screen 
+## Step 4: Display Cached Data in screen <a id="screen"></a>
 
 Now that we have cached the data in getStorage, we can display it in our app even when offline or when the API is not accessible.
 Call the ```syncData```function to check the internet status. In this UI, there are three cases: first, read from getStorage and display it; second, if there is no internet, cache the data; finally, when the internet is available, update the data.
@@ -204,20 +217,20 @@ Call the ```syncData```function to check the internet status. In this UI, there 
 <br>
 
 
-## Note in using simulator
+## Note in using simulator <a id="started"></a>
 
 Sometimes, the ```Connectivity Plus``` package may cause issues with CocoaPods. I recommend the following:
 
-1- Navigate to the /ios folder inside your Flutter project.
-2- Locate the ```Podfile.lock``` file and uncomment the line ```platform :ios, '12.0' ```(usually in line 2).
-3- Run ``` flutter clean```.
-4- Run ``` flutter run```.
+1. Navigate to the /ios folder inside your Flutter project.
+2. Locate the ```Podfile.lock``` file and uncomment the line ```platform :ios, '12.0' ```(usually in line 2).
+3. Run ```flutter clean```.
+4. Run ```flutter run```.
 
 
 
 
 
-## 💼 Technologies  
+## 💼 Technologies  <a id="technologies"></a>
 
 | library  |         Usage 
 | :-------- | :------------------------- |
