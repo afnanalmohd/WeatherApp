@@ -246,6 +246,13 @@ Sometimes, the ```Connectivity Plus``` package may cause issues with CocoaPods. 
 [![English](https://img.shields.io/badge/Language-English-yellow?style=for-the-badge)](README.md)
 
 
+### Demo: 
+<img align="left" width="70" height="full" src= https://github.com/user-attachments/assets/7f1a690b-14a2-4cbd-953d-0ca48c5b5e4d" alt="app weather" >
+<img align="left" width="70" height="full" src= https://github.com/user-attachments/assets/401adbe8-5732-4710-b136-ff0aa5f1753e" alt="app weather" >
+
+
+
+
 ## 🦸‍♀️  written by 
 
 **Afnan Almohammadi**
