@@ -247,8 +247,9 @@ Sometimes, the ```Connectivity Plus``` package may cause issues with CocoaPods. 
 
 
 ### Demo: 
-<img align="left" width="70" height="full" src= https://github.com/user-attachments/assets/7f1a690b-14a2-4cbd-953d-0ca48c5b5e4d" alt="app weather" >
-<img align="left" width="70" height="full" src= https://github.com/user-attachments/assets/401adbe8-5732-4710-b136-ff0aa5f1753e" alt="app weather" >
+<img align="left" width="70" height="full" src="https://github.com/user-attachments/assets/7f1a690b-14a2-4cbd-953d-0ca48c5b5e4d" alt="app weather">
+<img align="left" width="70" height="full" src="https://github.com/user-attachments/assets/401adbe8-5732-4710-b136-ff">
+
 
 
 
